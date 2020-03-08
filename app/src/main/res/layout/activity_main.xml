@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    #####################################-->
+<!--    linear layout example-->
+
+<!--    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/linearLayoutEX"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingRight="16dp"-->
+<!--        android:orientation="vertical">-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/to"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/subject" />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="top"-->
+<!--        android:hint="@string/message" />-->
+<!--     <Button-->
+<!--         android:id="@+id/send_button"-->
+<!--         android:layout_width="100dp"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:layout_gravity="right"-->
+<!--         android:hint="@string/send" />-->
+<!--    </LinearLayout>-->
+
+
+
+<!--    #####################################-->
+<!--    Relative layout with image button example-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingRight="16dp">-->
+<!--        <EditText-->
+<!--            android:id="@+id/name"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="@string/alarm"/>-->
+<!--        <Spinner-->
+<!--            android:id="@+id/times"-->
+<!--            android:layout_width="137dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/name"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:entries="@array/time" />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/dates"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/name"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_toLeftOf="@+id/times"-->
+<!--            android:entries="@array/day" />-->
+<!--        <Button-->
+<!--            android:id="@+id/done"-->
+<!--            android:layout_width="96dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/times"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:text="@string/done"/>-->
+<!--        <ImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:src="@drawable/ic_action_name" />-->
+<!--    </RelativeLayout>-->
+
+
+
+<!--    #####################################-->
+<!--    Styling the button example-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_send"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/send"-->
+<!--        android:onClick="sendMessage"-->
+<!--        style="?android:attr/borderlessButtonStyle" -->
+<!--        />-->
+
+
+
+<!--    #####################################-->
+<!--    Specifying the Keyboard Type example-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/email_address"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/email_hint"-->
+<!--        android:inputType="textEmailAddress"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/phone_number"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/phone_number_hint"-->
+<!--        android:inputType="number"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/email_address"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+
+<!--    #####################################-->
+<!--    Controlling other behaviors example-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/postal_address"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/postal_address_hint"-->
+<!--        android:inputType="textPostalAddress|textCapWords|textNoSuggestions"/>-->
+
+
+<!--    #####################################-->
+<!--    Responding to action button events-->
+<!--    <EditText-->
+<!--        android:id="@+id/search"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/search_hint"-->
+<!--        android:inputType="text"-->
+<!--        android:imeOptions="actionSend" />-->
+
+<!--    -->
+<!-- >??????????    -->
+
+<!--    <EditText-->
+<!--        android:id="@+id/launch_codes"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/enter_launch_code"-->
+<!--        android:inputType="number"-->
+<!--        android:imeActionLabel="@string/launch" />-->
+
+
+
+<!--    #####################################-->
+<!--    Providing Auto-complete Suggestions example-->
+
+<!--    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/autocomplete_country"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+<!--    #####################################-->
+<!--    Radio Buttons example-->
+
+<!--    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_pirates"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/pirates"-->
+<!--            android:onClick="onRadioButtonClicked"/>-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_ninjas"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/ninjas"-->
+<!--            android:onClick="onRadioButtonClicked"/>-->
+<!--    </RadioGroup>-->
+
+
+
+<!--    #####################################-->
+<!--    Toggle Buttons example -->
+
+<!--        <ToggleButton-->
+<!--            android:id="@+id/togglebutton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="8dp"-->
+<!--            android:layout_marginTop="80dp"-->
+<!--            android:text="ToggleButton"-->
+<!--            android:textOff="Off"-->
+<!--            android:textOn="On"/>-->
+
+
+
+<!--    #####################################-->
+<!--    Spinner example-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/planets_spinner"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+
+
+<!--    #####################################-->
+<!--    Create Time Picker example-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/pick_time"-->
+<!--        android:onClick="showTimePickerDialog"/>-->
+
+
+
+
+<!--    #####################################-->
+<!--    Create Date Picker example-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_date"
+            android:onClick="showDatePickerDialog"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

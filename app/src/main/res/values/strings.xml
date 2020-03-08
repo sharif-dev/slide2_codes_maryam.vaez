@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="click">button is clicked</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="alarm">Alarm</string>
+    <string name="done">Done</string>
+    <string name="time_ex">am</string>
+    <string name="dates_ex">Wed,June 27,2012</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="postal_address_hint">Postal Address</string>
+    <string name="search_hint">Search</string>
+    <string name="enter_launch_code">Enter Launch Code</string>
+    <string name="launch">Launch</string>
+    <string name="pirates">Pirates</string>
+    <string name="ninjas">Ninjas</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+
+    <string-array name="time">
+        <item>00:00am</item>
+        <item>02:00am</item>
+        <item>03:00am</item>
+        <item>04:00am</item>
+        <item>05:00am</item>
+        <item>06:00am</item>
+        <item>07:00am</item>
+        <item>08:00am</item>
+        <item>09:00am</item>
+        <item>10:00am</item>
+        <item>11:00am</item>
+        <item>12:00pm</item>
+        <item>13:00pm</item>
+        <item>14:00pm</item>
+        <item>15:00pm</item>
+        <item>16:00pm</item>
+        <item>17:00pm</item>
+        <item>18:00pm</item>
+        <item>19:00pm</item>
+        <item>20:00pm</item>
+        <item>21:00pm</item>
+        <item>22:00pm</item>
+        <item>23:00pm</item>
+    </string-array>
+    <string-array name="day">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="country_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antractica</item>
+<!--        ... -->
+    </string-array>
+
+    <string-array name="planet_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+</resources>
