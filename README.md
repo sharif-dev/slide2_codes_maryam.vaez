@@ -1,3 +1,3 @@
 # slide2_codes
-these are the code of second slide
 
+Codes in Slide2 are written. By uncommenting each part, you can see the result.
