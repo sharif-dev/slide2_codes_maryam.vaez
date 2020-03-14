@@ -87,6 +87,7 @@
 
 <!--    #####################################-->
 <!--    Styling the button example-->
+<!--    uncomment the sending button for Using an OnClickListener in MainActivity-->
 
 <!--    <Button-->
 <!--        android:id="@+id/button_send"-->
@@ -132,6 +133,8 @@
 
 <!--    #####################################-->
 <!--    Responding to action button events-->
+<!--    uncomment the search part of MainActivity -->
+
 <!--    <EditText-->
 <!--        android:id="@+id/search"-->
 <!--        android:layout_width="fill_parent"-->
@@ -140,21 +143,11 @@
 <!--        android:inputType="text"-->
 <!--        android:imeOptions="actionSend" />-->
 
-<!--    -->
-<!-- >??????????    -->
-
-<!--    <EditText-->
-<!--        android:id="@+id/launch_codes"-->
-<!--        android:layout_width="fill_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="@string/enter_launch_code"-->
-<!--        android:inputType="number"-->
-<!--        android:imeActionLabel="@string/launch" />-->
-
 
 
 <!--    #####################################-->
 <!--    Providing Auto-complete Suggestions example-->
+<!--    uncomment the AutoCompleteTextView part in MainActivity-->
 
 <!--    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"-->
 <!--        android:id="@+id/autocomplete_country"-->
@@ -164,6 +157,7 @@
 
 <!--    #####################################-->
 <!--    Radio Buttons example-->
+<!--    uncomment the onRadioButtonClicked function in MainActivity-->
 
 <!--    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"-->
 <!--        android:layout_width="fill_parent"-->
@@ -187,6 +181,7 @@
 
 <!--    #####################################-->
 <!--    Toggle Buttons example -->
+<!--    uncomment the Responding to Button Presses for ToggleButton in MainActivity-->
 
 <!--        <ToggleButton-->
 <!--            android:id="@+id/togglebutton"-->
@@ -202,6 +197,7 @@
 
 <!--    #####################################-->
 <!--    Spinner example-->
+<!--    uncomment the Populate the Spinner with User Choices in MainActivity-->
 
 <!--    <Spinner-->
 <!--        android:id="@+id/planets_spinner"-->
@@ -226,12 +222,133 @@
 <!--    #####################################-->
 <!--    Create Date Picker example-->
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/pick_date"
-            android:onClick="showDatePickerDialog"/>
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/pick_date"-->
+<!--            android:onClick="showDatePickerDialog"/>-->
+
+<!--    #####################################-->
+<!--    Event Listener-->
+<!--    uncomment the Event Listener in MainActivity-->
+
+<!--         <Button-->
+<!--             android:id="@+id/corky"-->
+<!--             android:layout_width="100dp"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:layout_gravity="right"-->
+<!--             android:hint="@string/send" />-->
 
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    #####################################-->
+<!--    Handling Focus-->
+
+<!--    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/linearLayoutEX"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingRight="16dp"-->
+<!--        android:orientation="vertical">-->
+<!--        <Button-->
+<!--             android:id="@+id/top"-->
+<!--             android:layout_width="100dp"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:layout_gravity="right"-->
+<!--             android:nextFocusUp="@id/bottom"-->
+<!--             android:hint="TOP"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/bottom"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:nextFocusUp="@id/top"-->
+<!--            android:hint="DOWN"/>-->
+<!--        />-->
+<!--        </LinearLayout>-->
+
+
+
+<!--    #####################################-->
+<!--    context menu-->
+<!--    uncomment create context menu or action mode in MainActivity-->
+
+
+<!--    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical" >-->
+<!--        <Button-->
+<!--            android:id="@+id/btnShow"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Long press me"/>-->
+<!--    </LinearLayout>-->
+
+
+<!--    #####################################-->
+<!--    popup menu-->
+<!--    uncomment  Handling click events in popup menu in MainActivity-->
+<!--    <ImageButton-->
+<!--        android:id="@+id/popup_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_reply"-->
+<!--        android:contentDescription="@string/replyDesc"-->
+<!--        android:onClick="showPopup"/>-->
+
+
+<!--    #####################################-->
+<!--    All kind of DialogFragments-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="72dp"-->
+<!--        android:onClick="showSingleItemDialog"-->
+<!--        android:text="@string/pick_color"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.532" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="280dp"-->
+<!--        android:onClick="showFireMissionDialog"-->
+<!--        android:text="@string/fire_mission"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.505"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.821" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="showMultipleItemDialog"-->
+<!--        android:text="@string/pick_your_toppings"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
+<!--        app:layout_constraintVertical_bias="0.375" />-->
+
+
+<!--    #####################################-->
+<!--    Defining Styles -->
+
+<!--    <TextView-->
+<!--        style="@style/CodeFont"-->
+<!--        android:text="@string/Hello"/>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

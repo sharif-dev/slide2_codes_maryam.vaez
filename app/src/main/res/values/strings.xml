@@ -19,6 +19,34 @@
     <string name="ninjas">Ninjas</string>
     <string name="pick_time">Pick Time</string>
     <string name="pick_date">Pick Date</string>
+    <string name="new_game">New Game</string>
+    <string name="help">Help</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="replyDesc">Reply</string>
+    <string name="replyAll">Reply All</string>
+    <string name="menu_save">Menu Save</string>
+    <string name="menu_archive">Menu Archive</string>
+    <string name="menu_delete">Menu Delete</string>
+    <string name="dialog_message">Alert Example</string>
+    <string name="alert_title">Alert Title Example</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="remind_me_later">Remind Me Later</string>
+    <string name="pick_color">Pick a color</string>
+    <string name="dialog_fire_missiles">Fire missles?</string>
+    <string name="fire">Fire</string>
+    <string name="fire_mission">Fire Mission</string>
+    <string name="pick_toppings">Pick your topping</string>
+    <string name="pick_your_toppings">PICK YOUR TOPPINGS</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="custom_toast">This is a custom toast</string>
+    <string name="Hello">Hello</string>
+    <string name="PressButton">Press the Button</string>
+
 
     <string-array name="time">
         <item>00:00am</item>
@@ -77,5 +105,20 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
+
+    <string-array name="colors_array">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="toppings">
+        <item>Onion</item>
+        <item>Potato</item>
+        <item>Tomato</item>
+    </string-array>
+
+
+
 
 </resources>
